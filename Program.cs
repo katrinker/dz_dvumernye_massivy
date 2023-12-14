@@ -2,7 +2,7 @@
 //и возвращает значение этого элемента или же указание, что такого элемента нет.
 
 
-int [,] array = new int[5,3];
+/*int [,] array = new int[5,3];
 
 void CreateArray()
 {
@@ -49,4 +49,54 @@ return i;
 
 CreateArray();
 PrintArray();
-FindEl();
+FindEl();*/
+
+
+
+
+
+//Задача 2: Задайте двумерный массив. 
+//Напишите программу, которая поменяет местами первую и последнюю строку массива.
+
+int [,] array = new int[4,4];
+
+void CreateArray()
+{
+for (int i = 0; i < array.GetLength(0); i++)
+{
+for (int j = 0; j < array.GetLength(1); j++)
+{
+array[i,j] = new Random().Next(1,10);
+}
+}
+}
+
+void PrintArray()
+{
+for (int i = 0; i < array.GetLength(0); i++)
+{
+for (int j = 0; j < array.GetLength(1); j++)
+{
+System.Console.Write(array[i,j] +" ");
+}
+System.Console.WriteLine();
+}
+System.Console.WriteLine();
+}
+
+void ChangeArray()
+{
+   for(int i = 0; i < array.GetLength(1); i++)
+            {
+                var tmp = array[3, i];
+                array[3, i] = array[0, i];
+                array[0, i] = tmp;
+            }
+System.Console.WriteLine();
+}
+
+
+CreateArray();
+PrintArray();
+ChangeArray();
+PrintArray();

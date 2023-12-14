@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dz_dvumernye_massivy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e78a9032e0f583c3e969cac16bad7198d4bf8a20")]
 [assembly: System.Reflection.AssemblyProductAttribute("dz_dvumernye_massivy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dz_dvumernye_massivy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
