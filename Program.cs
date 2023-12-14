@@ -159,3 +159,98 @@ FindStringMinSum();*/
 
 
 
+//Задача 4*(не обязательная): Задайте двумерный массив из целых чисел.
+// Напишите программу, которая удалит строку и столбец, на пересечении которых расположен наименьший элемент массива. 
+//Под удалением понимается создание нового двумерного массива без строки и столбца
+
+
+
+// нифига не получилось((
+using System.Globalization;
+
+int[,] array = new int[5,3];
+int[,] result = new int[array.GetLength(0)-1, array.GetLength(1)-1];
+int rI = 0;
+int rJ = 0;
+
+void CreateArray()
+{
+for (int i = 0; i < array.GetLength(0); i++)
+{
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+        array[i,j] = new Random().Next(1,101);
+    }
+}
+}
+
+void PrintArray()
+{
+for (int i = 0; i < array.GetLength(0); i++)
+{
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+        System.Console.Write(array[i,j] +" ");
+    }
+System.Console.WriteLine();
+}
+System.Console.WriteLine();
+}
+
+void FindMin()
+{
+int min = array[0,0];
+int minI = 0;
+int minJ = 0;
+
+for (int i = 0; i < array.GetLength(0); i++)
+{
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+        if(array[i,j]<min)
+{
+    array[i,j] = min;
+    minI = i;
+    minJ = j;
+}
+    }
+}
+
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        if (i != minI)
+        {
+         for (int j = 0; j < array.GetLength(1); j++)
+         {
+            if (j != minJ)
+            {
+                result[rI,rJ] = array[i,j];
+                rJ++;
+                
+            }
+         } 
+         rI++;
+         rJ = 0;  
+        }
+    }
+
+}
+
+
+void PrintResultArray()
+{
+for (int i = 0; i < result.GetLength(0); i++)
+{
+    for (int j = 0; j < result.GetLength(1); j++)
+    {
+    System.Console.Write(result[i,j] + " ");
+    }
+System.Console.WriteLine();
+}
+}
+
+CreateArray();
+PrintArray();
+FindMin();
+PrintResultArray();
+
