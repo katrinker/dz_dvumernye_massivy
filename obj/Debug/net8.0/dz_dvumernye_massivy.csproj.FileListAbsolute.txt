@@ -1,0 +1,14 @@
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\bin\Debug\net8.0\dz_dvumernye_massivy.exe
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\bin\Debug\net8.0\dz_dvumernye_massivy.deps.json
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\bin\Debug\net8.0\dz_dvumernye_massivy.runtimeconfig.json
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\bin\Debug\net8.0\dz_dvumernye_massivy.dll
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\bin\Debug\net8.0\dz_dvumernye_massivy.pdb
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.AssemblyInfoInputs.cache
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.AssemblyInfo.cs
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.csproj.CoreCompileInputs.cache
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.dll
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\refint\dz_dvumernye_massivy.dll
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.pdb
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\dz_dvumernye_massivy.genruntimeconfig.cache
+C:\Users\Катерина\Desktop\обучение\C#\dz_dvumernye_massivy\obj\Debug\net8.0\ref\dz_dvumernye_massivy.dll
